@@ -6,4 +6,11 @@ coverage:
         threshold: 1%
 
 ignore:
-  - "api/app.py"
+  - api/app.py
+
+comment:
+  show_critical_paths: true
+
+profiling:
+  critical_files_paths:
+    - api/calculator.py
